@@ -12,6 +12,11 @@ function square() {
   num.value = Math.pow(num.value, 2);
 }
 
+function inverse() {
+  var num = document.getElementById("n1");
+  num.value = 1/num.value
+}
+
 </script>
 </head>
 <body>
@@ -21,6 +26,7 @@ function square() {
 
   <button onclick="cube()"> x³ </button>
   <button onclick="square()"> x<sup>2</sup> </button>
+  <button onclick="inverse()"> 1/x </button>
 </body>
 </html>
  
